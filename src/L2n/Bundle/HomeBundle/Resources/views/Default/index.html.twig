@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}L2n Software Limited{% endblock %}
+
+{% block body %}
+    Hello {{ name }}
+    <br/>
+    Roles:
+    {% for role in roles %}
+        {{ role }}
+    {% endfor %}
+    <br/>
+
+    <a href="{{ path('logout') }}">logout</a>
+{% endblock %}

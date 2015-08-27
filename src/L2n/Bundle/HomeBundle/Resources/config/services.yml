@@ -1,0 +1,4 @@
+services:
+#    l2n_home.example:
+#        class: L2n\Bundle\HomeBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

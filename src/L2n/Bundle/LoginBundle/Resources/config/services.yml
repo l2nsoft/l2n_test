@@ -1,0 +1,4 @@
+services:
+#    l2n_login.example:
+#        class: L2n\Bundle\LoginBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,22 @@
+l2n_home:
+    resource: "@L2nHomeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+l2n_login:
+    resource: "@L2nLoginBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+login_route:
+    path:     /login
+    defaults: { _controller: L2nLoginBundle:Security:login }
+
+login_check:
+    path: /login_check
+    # no controller is bound to this route
+    # as it's handled by the Security system
+logout:
+    path: /logout

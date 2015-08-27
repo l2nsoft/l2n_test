@@ -1,0 +1,3 @@
+l2n_login_homepage:
+    path:     /hello
+    defaults: { _controller: L2nLoginBundle:Default:index }

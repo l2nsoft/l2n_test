@@ -1,0 +1,3 @@
+l2n_home_homepage:
+    path:     /home
+    defaults: { _controller: L2nHomeBundle:Default:index }
